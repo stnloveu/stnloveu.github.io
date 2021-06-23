@@ -184,21 +184,22 @@ header a {
 }
 
 .footer-text {
-	font-size: 13px;
+	font-size: 10px;
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
-	padding: 45px;
+	padding: 20px;
 	color: white;
 }
 
 .footer-text p {
-	margin-right: 70px;
+	margin-right: 100px;
 }
 
 .footer{
+	white-space: nowrap;
 	text-decoration: none;
 	letter-spacing: 0.1em;
-	margin-top: 103px;
+	margin-top: 60px;
 	width: 420px;
 	background: url('../img/footer-bg.jpg') no-repeat center top / cover;
 }
