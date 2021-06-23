@@ -52,7 +52,7 @@ ul, li {
 }
 
 .container {
-	width: 100%;
+	width: 1170px;;
 	/*позиционирование по центру*/
 	margin: 0 auto; 
 }
