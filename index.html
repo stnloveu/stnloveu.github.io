@@ -4,10 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title>AmiToys</title>
-	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 	<link rel="icon" href="img/favicon.png" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
 	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -17,19 +20,24 @@
 				<img src="img/logo.svg" alt="AmiToys" class="logo">
 				<ul class="menu">
 					<li>
-						<a href="stnloveu.github.io/index.html">
-							Главная
+						<a href="file:///C:/Users/Home/Desktop/web/ОСНОВА.html">
+							<b>Главная</b>
 						</a>
 					</li>
 					<li>
-						<a href="stnloveu.github.io/view.html">
-							Примеры работ
+						<a class="scrollto" href="#about">
+							<b>Примеры работ</b>
+					</a>
+					</li>
+					<li>
+						<a href="file:///C:/Users/Home/Desktop/web/about.html">
+							<b>О нас</b>
 					</a>
 					</li>
 		
 				</ul>
 				<a href="tel:+380731810522" class="tel">
-					+38(073)-181-05-22
+					<b>+38(073)-181-05-22</b>
 				</a>
 			</div>
 			<div class="offer">
@@ -37,11 +45,53 @@
 				<h1>
 					Amigurumi Toys
 				</h1>
-				<a href="https://t.me/amitoysmaker" class="btn">Заказать</a>
-				<a href="https://t.me/amitoysua" class="btn">Канал</a>
+				<a href="https://t.me/amitoysmaker" class="btn"><b>Заказать</b></a>
+				<a href="https://t.me/amitoysua" class="btn"><b>Канал</b></a>
 			</div>
 		</div>
 	</header>
 
+<section id="about" class="about" name="about">
+		<div class="container">
+			<h2>Примеры наших работ</h2>
+			<div class="gallery">
+				<img src="img/img1.jpg" alt="Toy 1">
+				<img src="img/img2.jpg" alt="Toy 2">
+				<img src="img/img3.jpg" alt="Toy 3">
+				<img src="img/img4.jpg" alt="Toy 4">
+			</div>
+			<div class="gallery">
+				<img src="img/img5.jpg" alt="Toy 5">
+				<img src="img/img6.jpg" alt="Toy 6">
+				<img src="img/img7.jpg" alt="Toy 7">
+				<img src="img/img8.jpg" alt="Toy 8">
+			</div>
+		</div>
+	</section>
+
+<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>
+					©2020-2021 AmiToys Odessa
+				</p>
+				<a href="https://t.me/amitoysua"> Telegram 
+					<img src="img/telegram.png" alt="Telegram"> </a>
+			</div>
+		</div>
+	</footer>
+
 </body>
+
+<script>
+jQuery(document).ready(function() {
+jQuery("a.scrollto").click(function () {
+elementClick = jQuery(this).attr("href")
+destination = jQuery(elementClick).offset().top;
+jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 900);
+return false;
+});
+});
+</script>
+
 </html>
