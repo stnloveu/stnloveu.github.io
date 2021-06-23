@@ -61,7 +61,8 @@ ul, li {
 	background: url('../img/header-bg.jpg') no-repeat center top / cover;
 	padding-top: 57px;
 	color: #fff;
-	padding-bottom: 322px
+	padding-bottom: 322px;
+	width: 100%;
 }
 
 header a {
@@ -193,4 +194,5 @@ header a {
 	margin-top: 100px;
 	width: 100%;
 	background: url('../img/footer-bg.jpg') no-repeat center top / cover;
+	width: 100%;
 }
