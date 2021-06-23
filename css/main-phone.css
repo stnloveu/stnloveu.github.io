@@ -63,6 +63,7 @@ ul, li {
 	background: url('../img/header-bg.jpg')  no-repeat center top / cover;
 	padding-top: 57px;
 	color: #fff;
+	white-space: nowrap;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-bottom: 300px;
 	width: 420px;
@@ -70,6 +71,7 @@ ul, li {
 
 header a {
 	color: #fff;
+	white-space: nowrap;
 }
 
 .logo {
@@ -78,7 +80,6 @@ header a {
 
 .menu {
 	display: flex;
-	white-space: nowrap;
 }
 
 .menu li a {
