@@ -175,7 +175,8 @@ header a {
 
 .gallery img {
 	transition: all 0.5s ease;
-	width: 87px;
+	width: 80px;
+	height: 100px;
 }
 
 .gallery img:hover {
