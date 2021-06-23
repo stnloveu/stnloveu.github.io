@@ -103,6 +103,7 @@ header a {
 	font-size: 10px;
 	margin-left: 1px;
 	letter-spacing: 0.1em;
+	white-space: nowrap;
 }
 
 .nav {
