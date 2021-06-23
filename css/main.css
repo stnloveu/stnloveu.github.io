@@ -58,7 +58,7 @@ ul, li {
 }
 
 .header {
-	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	background: url('../img/header-bg.jpg');
 	padding-top: 57px;
 	color: #fff;
 	padding-bottom: 322px;
@@ -193,5 +193,5 @@ header a {
 .footer{
 	margin-top: 100px;
 	width: 100%;
-	background: url('../img/footer-bg.jpg') no-repeat center top / cover;
+	background: url('../img/header-bg.jpg');
 }
