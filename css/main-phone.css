@@ -78,6 +78,7 @@ header a {
 
 .menu {
 	display: flex;
+	white-space: nowrap;
 }
 
 .menu li a {
