@@ -193,13 +193,13 @@ header a {
 .footer-text {
 	font-size: 10px;
 	font-family: 'Open Sans', sans-serif;
-	display: flex;
 	padding: 20px;
 	color: white;
 }
 
 .footer-text p {
-	margin-right: 100px;
+	margin-right: 5px;
+	width: 16%;
 }
 
 .footer{
@@ -216,7 +216,7 @@ footer a {
 }
 
 footer img{
-	width: 18%;
+	width: 20%;
 }
 
 .preloader {

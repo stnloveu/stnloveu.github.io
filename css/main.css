@@ -195,13 +195,14 @@ header a {
 .footer-text {
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	display: flex;
-	padding: 45px;
+	padding: 30px;
 	color: white;
+	display: flex;
 }
 
 .footer-text p {
-	margin-right: 67px;
+	width: 80%;
+	margin-right: 30px;
 }
 
 .footer{
@@ -214,10 +215,11 @@ header a {
 
 footer a {
 	color: #fff;
+	margin-left: 80px;
 }
 
 footer img{
-	width: 2%;
+	width: 6%;
 }
 
 .preloader {
